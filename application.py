@@ -8,7 +8,7 @@ def hello():
     return "<h1>Hello goorm!</h1>"
 
 # OpenAI API 키 설정
-api_key = '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'  # 실제 API 키로 변경해주세요
+api_key = ''  # 실제 API 키로 변경해주세요
 openai.api_key = api_key
 
 @application.route("/mykakao", methods=['POST'])
